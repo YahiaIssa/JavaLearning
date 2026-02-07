@@ -6,12 +6,10 @@ public class Main {
 //        x.Speed(150);//here we call the methode that's name Speed and sit value =150,
 //        and it will print the value of speed is 150
 
-Car camry=new Car(100);
+Car camry =new Car();
 
+  System.out.println(camry.y);
 
-
-
-        camry.setSpeed(60);
 
 
 

@@ -13,6 +13,12 @@ methods
 object is a copy from the class
  */
 public class Car {
+
+
+    int c=10;
+
+    int y=(c==10)?((c<0)?1:2):70;
+
 //    public int model;
 //    public float price;
 //
@@ -23,40 +29,36 @@ public class Car {
 //
 //        System.out.println("Speed :"+s);
 //    }
-    public int speed;
+//    public int speed;
+//
+//    public Car(int s){
+//
+//this.speed=s;
+//
+//    }
+//    public void setSpeed(int s){
+//        this.speed=s;
+//
+//
+//        switch (s){
+//            case 100:
+//                System.out.println("be carful");
+//                break;
+//            case 120:
+//                System.out.println("slow down");
+//                break;
+//            case 50:
+//                System.out.println("good driver");
+//            default:
+//                System.out.println("okay");
 
-    public Car(int s){
 
-this.speed=s;
 
+
+
+      //  }
     }
-    public void setSpeed(int s){
-        this.speed=s;
 
-
-        switch (s){
-            case 100:
-                System.out.println("be carful");
-                break;
-            case 120:
-                System.out.println("slow down");
-                break;
-            case 50:
-                System.out.println("good driver");
-            default:
-                System.out.println("okay");
-
-        }
-    }
-
-public int getSpeed(){
-
-    return this.speed;
-
-}
-
-
-    }
 
 
 
