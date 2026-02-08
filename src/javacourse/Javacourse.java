@@ -41,32 +41,41 @@ public class Javacourse {
 //            System.out.println(v);
 //        }
 //        System.out.println(values[0]);
-        int values[] = new int[10];
-        Car y[] = new Car[10];
+//        int values[] = new int[10];
+//        Car y[] = new Car[10];
+//
+//        int[][] x = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+//
+//        System.out.println(x[2][0]);
+//
+//        int z[][] = new int[2][4];
+//
+//        z[0][0] = 1;
+//        z[0][1] = 2;
+//        z[0][2] = 3;
+//        z[0][3] = 4;
+//
+//        z[1][0] = 1;
+//        z[1][1] = 2;
+//        z[1][2] = 3;
+//        z[1][3] = 4;
+//
+//        for(int i=0;i< z.length;i++){
+//            int[] r=z[i];
+//
+//            System.out.println(Arrays.toString(r));
+//        }
 
-        int[][] x = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-
-        System.out.println(x[2][0]);
-
-        int z[][] = new int[2][4];
-
-        z[0][0] = 1;
-        z[0][1] = 2;
-        z[0][2] = 3;
-        z[0][3] = 4;
-
-        z[1][0] = 1;
-        z[1][1] = 2;
-        z[1][2] = 3;
-        z[1][3] = 4;
-
-        for(int i=0;i< z.length;i++){
-            int[] r=z[i];
-
-            System.out.println(Arrays.toString(r));
-        }
-
-
+        float x = 1.0f;
+        double y = 1.0;
+        System.out.println(x + y);
+        short z = 20000;
+        long j = 300000000;
+        System.out.println(z + j);
+        boolean m=true;
+        System.out.println(m);
+        //byte start from -128 to 127
+        byte h=-128;
 
     }
 
