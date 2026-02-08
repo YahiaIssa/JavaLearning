@@ -7,35 +7,28 @@ public class Javacourse {
 
 
     public static void main(String[] args) {
-//Data type
-        char z='c';
-        System.out.println(z);
-        String x="Data type course";
-        System.out.println("x");
-//        char c=x.charAt(0);
-//        System.out.println(c);
-        int l =x.length();
-        System.out.println(l);
-        for (int i = 0; i <x.length() ; i++) {
-            char c=x.charAt(i);
-            System.out.println(c);
+
+    int z[] = {1,2,3,4,5,6,7,8,9};
+        for (int i = 0; i <z.length ; i++) {
+            System.out.println(z[i]);
         }
-        String value=new String("YaHiA");
-        System.out.println(value);
 
-        String name="Yahia";
-        String nname=name.toUpperCase();
-        System.out.println(nname);
-        String mname=name.toLowerCase();
-        System.out.println(mname);
 
-        String site="www.google.com";
-        String xaite="www.googlE.com";
+        int num2[]={1,2,3,4,5,6,7,8};
+        System.out.println(num2.length);
 
-      if(site.equalsIgnoreCase(xaite))
-          System.out.println("ok");
-      else
-          System.out.println("no");
+
+        String nam="yahia66";
+        int num1[]={1,2,3,4,5};
+        System.out.println(nam.length());
+        System.out.println(num1.length);
+
+        String name []={"yahia","issa","ramadan"};
+        for (int i = 0; i <name.length ; i++) {
+            System.out.print(" ");
+            System.out.print(name[i]);
+
+        }
     }
 }
 
