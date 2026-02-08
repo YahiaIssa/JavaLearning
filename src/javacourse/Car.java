@@ -15,9 +15,6 @@ object is a copy from the class
 public class Car {
 
 
-    int c=10;
-
-    int y=(c==10)?((c<0)?1:2):70;
 
 //    public int model;
 //    public float price;
