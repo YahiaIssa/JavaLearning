@@ -28,6 +28,7 @@ public class Calc {
 
     public int[] mulArray(int[] a, int[] b) {
         if (a.length != b.length)
+
             return null;
 
         int [] result = new int[b.length];
@@ -37,7 +38,6 @@ public class Calc {
         }
         return result;
     }
-
 }
 
 

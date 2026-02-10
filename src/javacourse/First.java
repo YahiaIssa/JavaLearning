@@ -7,26 +7,24 @@ import java.util.Locale;
 public class First {
 
     public static void main(String[] args) {
-        Calc c=new Calc();
+       Book java_book=new Book("java","Yahia",2012,512);
+       Book python_book=new Book("python","Hamzeh",2015,650);
 
-        int result=c.Sum(23,5);
-        System.out.println(result);
-        result=c.Min(10,5);
-        System.out.println(result);
-        result=c.Mul(2,3);
-        System.out.println(result);
-        result=c.Div(10,5);
-        System.out.println(result);
-        c.Dec(55);
 
-        int [] one1={3,4,5};
-        int [] two2={2,3,9};
-        int [] T=c.mulArray(one1,two2);
-        int [] y =c.mulArray(one1,two2);
-        for (int i = 0; i <y.length; i++) {
-            System.out.println(y[i]);
-        }
+       StrOp str=new StrOp(python_book.author);
+       char ch[]=str.strToArray();
+        System.out.println(ch);
 
+
+       java_book.OpenBook();
+       python_book.OpenBook();
+       java_book.printBookInfo();
+
+        System.out.println("___________________________");
+
+       python_book.printBookInfo();
+       java_book.CloseBook();
+       python_book.CloseBook();
     }
 
 }
